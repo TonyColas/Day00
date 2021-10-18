@@ -1,0 +1,59 @@
+    1  ls
+    2  cd Constructeurs/
+    3  mkdir Sony
+    4  mkdir Nintendo
+    5  mkdir Microsoft
+    6  mkdir Sega
+    7  cd Sony/
+    8  ls
+    9  mkdir Consoles
+   10  mkdir Consoles/PS4
+   11  mkdir Consoles/PS5
+   12  cd ..
+   13  mkdir "Consoles portables"
+   14  ls
+   15  mv 'Consoles portables'/Sony
+   16  ls
+   17  cd Sony/
+   18  ls
+   19  mkdir 'Consoles portables'
+   20  ls
+   21  cd ..
+   22  rm -r 'Consoles portables'/
+   23  ls
+   24  cd Nintendo/
+   25  mkdir Consoles
+   26  mkdir 'Consoles portables'
+   27  ls
+   28  mkdir Consoles/Gamecube
+   29  mkdir 'Consoles portables'
+   30  ls
+   31  cd ..
+   32  cd Microsoft/
+   33  ls
+   34  mkdir Consoles
+   35  mkdir Consoles/Xbox
+   36  mkdir Consoles/Xbox360
+   37  ls Consoles/
+   38  cd ..
+   39  cd Sega
+   40  mkdir Consoles
+   41  mkdir Consoles/Dreamcast
+   42  cd ../..
+   43  ls
+   44  mv ps4_fifa14.jpg Constructeurs/Sony/Consoles/fifa14
+   45  mv Constructeurs/Sony/Consoles/fifa14 Constructeurs/Sony/Consoles/PS4/fifa14
+   46  ls
+   47  mv gc* Constructeurs/Nintendo/Consoles/Gamecube/
+   48  mv gb* Constructeurs/Nintendo/Consoles/Gamecube/
+   49  mv playstation_4* Constructeurs/Sony/Consoles/PS4/
+   50  mv playstation_5* Constructeurs/Sony/Consoles/PS5/
+   51  ls
+   52  mv *360* Constructeurs/Microsoft/Consoles/Xbox360/
+   53  ls
+   54  mv xbox* Constructeurs/Microsoft/Consoles/Xbox
+   55  mv gameboy* 'Constructeurs/Nintendo/Consoles portables'/
+   56  mv dc* Constructeurs/Sega/Consoles/Dreamcast/
+   57  ls
+   58  cd ..
+   59  history >> commandes.txt
