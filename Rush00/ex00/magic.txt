@@ -1,0 +1,1 @@
+cat deposition_Joe_Rugiani | head -n -2 > temp && mv temp deposition_Joe_Rugiani.txt && rm -f temp

@@ -1,0 +1,1 @@
+sed 's/cadillac jaune/chevrolet impala;s/rouge/vert/' temp && mv temp deposition_Joe_Rugiani.txt && rm -f temp
