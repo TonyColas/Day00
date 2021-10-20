@@ -57,3 +57,21 @@
    57  ls
    58  cd ..
    59  history >> commandes.txt
+    1  mv gbc_pokemongold.jpg ../..
+    2  cd ../..
+    3  ls
+    4  ls 'Consoles portables'/
+    5  mkdir 'Consoles portables/Game Boy'
+    6  mv gbc_pokemongold.jpg 'Consoles portables/Game Boy'/
+    7  cd 'Consoles portables'/
+    8  ls
+    9  mv gameboy.pokmonred.jpg  'Game Boy'/
+   10  ls -r
+   11  mv ../Consoles/Gamecube/gc_* ./Game\ Boy/
+   12  ls Game\ Boy/
+   13  cd ../../..
+   14  ls
+   15  cd ..
+   16  ls
+   17  history
+   18  history >> commandes.txt 
